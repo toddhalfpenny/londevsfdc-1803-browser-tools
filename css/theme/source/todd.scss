@@ -1,0 +1,63 @@
+/**
+ * todd
+ */
+
+
+@import "moon.scss";
+
+.reveal .slides section {
+  padding-top: 2em;
+}
+
+section#intro {
+    padding-top: 1em;
+}
+
+.reveal {
+  font-size: 3em;
+}
+
+.reveal p {
+  font-size: 1.2em;
+}
+/*.reveal h2 {
+  font-size: 2.81em;
+}
+
+.reveal p {
+  font-size: 1.2em;
+}
+
+.reveal li {
+  font-size: 1.2em;
+}*/
+
+del {
+	color: gray;
+}
+
+.reveal h2 {
+  /*margin-top: -3em;
+  top: -3em;
+  position: relative;*/
+}
+
+code.heading {
+	font-size: 1.8em;
+	position: relative;
+  top: -2em;
+}
+.wrapper-2-col {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+.left-half {
+  grid-column: 1 / 2;
+  grid-row: 1;
+}
+.right-half {
+  grid-column: 2 / 2;
+  grid-row: 1;
+}
